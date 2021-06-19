@@ -1,0 +1,18 @@
+{
+  "name": "shortener",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nullstack": "~0.11.0"
+  },
+  "scripts": {
+    "start": "npx nullstack start",
+    "build": "npx nullstack build --mode=ssr"
+  },
+  "dependencies": {
+    "normalize-url": "^6.0.1",
+    "tedis": "^0.1.12"
+  }
+}
